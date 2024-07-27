@@ -1,0 +1,19 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*SUDDIVISIONE DIFFICOLTA*/
+.col-100 {
+    width:calc(100% / 10);
+}
+
+.col-81 {
+    width:calc(100% / 9);
+}
+
+.col-49 {
+    width:calc(100% / 7);
+}
+/*GENERALI*/
