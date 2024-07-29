@@ -4,23 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*SUDDIVISIONE DIFFICOLTA*/
-.col-100 {
-    width:calc(100% / 10);
-}
-
-.col-81 {
-    width:calc(100% / 9);
-}
-
-.col-49 {
-    width:calc(100% / 7);
-}
 /*GENERALI*/
 .section{
     width:1000px;
     margin:10px auto;
-    display:flex;
-    flex-wrap:wrap;
 
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#container > * {
+    color:black;
+    width: 150px;
+    height:150px;
+    border: 2px solid white;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container > .dario {
+    color: white;
+    border-color: white;
+    background-color: lightcoral;
 }
